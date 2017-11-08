@@ -1,7 +1,5 @@
 // Enable chromereload by uncommenting this line:
-import 'chromereload/devonly';
-//import * as gp from 'gamepad.js';
-console.log(`'Allo 'Allo! Content script!`);
+//import 'chromereload/devonly';
 
 var gp = require('gamepad.js');
 const vel = 10;
@@ -29,8 +27,8 @@ var mapping = {
 for (var button_name in mapping) {
   if (mapping.hasOwnProperty(button_name)) {
     gamepad.on('press', button_name, e => {
-      console.log(`${e.button} was pressed!
-        value equals = ${e.value}`);
+      // console.log(`${e.button} was pressed!
+      //   value equals = ${e.value}`);
 
       if (typeof mapping[e.button] == "string") {
         mapping[e.button] = [mapping[e.button]];
@@ -53,6 +51,6 @@ gamepad.on('hold','stick_axis_left',e=>{
   if(document.querySelector(".modalManager>div>div>div:last-child"))
     document.querySelector(".modalManager>div>div>div:last-child").scrollBy(e.value[0]*vel,e.value[1]*vel);
 })
-gamepad.on('connect', e => {
-    console.log(`controller ${e.index} connected!`);
-});
+// gamepad.on('connect', e => {
+//     console.log(`controller ${e.index} connected!`);
+// });
