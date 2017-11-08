@@ -1,7 +1,7 @@
 {
   "name": "tinderpad",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Add a layer of superficiality to your dating experience by using a gamepad to declare whom you may or may not engage with on sexual intercourse.",
   "scripts": {
     "start": "npm run dev:chrome",
