@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "tinderpad",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "tinderpad",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Add a layer of superficiality to your dating experience by using a gamepad to declare whom you may or may not engage with on sexual intercourse.",
+    "description": "The description of the application"
+  }
+}
