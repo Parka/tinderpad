@@ -2,6 +2,10 @@
 
 Add a layer of superficiality to your dating experience by using a gamepad to declare whom you may or may not engage with on sexual intercourse.
 
+[RELEASES](https://github.com/Parka/tinderpad/releases)
+
+[Tutorial in shitty English](https://www.youtube.com/watch?v=GfHzNtB_jvM)
+
 ## Installation
 
 	$ npm install
